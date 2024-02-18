@@ -1,0 +1,825 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            line-height: 100%;
+        }
+
+        [style*="Arial"] {
+            font-family: "Arial", Helvetica, sans-serif !important;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        table a {
+            text-decoration: none;
+        }
+
+
+        .header-td .disc-procent {
+            color: #f290bb;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 44px;
+        }
+
+        .header-td .disc-percent {
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: bold;
+        }
+
+        .header-td .disc {
+            padding: 16px;
+            background-color: #4cabe0;
+            border: 2px dashed #ffffff;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 26px;
+            display: inline-block;
+        }
+
+        .header-td .disc-text {
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+        .header-td .disc-phone a {
+            display: inline-block;
+            padding: 20px;
+            background: #F290BB;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .header-td {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .main-td-wrapper {
+            padding-left: 20px;
+        }
+
+        .top-td {
+            border-radius: 25px;
+            padding-left: 25px;
+        }
+
+        .top-td .top-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1d87ce;
+            line-height: 30px;
+            margin: 0;
+        }
+
+        .top-td .top-text {
+            font-size: 16px;
+            color: #3795d4;
+            line-height: 22px;
+            margin: 0;
+        }
+
+        .top-td .btn a {
+            display: inline-block;
+            width: 194px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 12px;
+            background-color: #f290bb;
+            text-align: center;
+        }
+
+        .item-wrapper td {
+            color: #ffffff;
+            line-height: 20px;
+        }
+
+
+        @media (max-width:620px) {
+            .table-600 {
+                width: 300px !important;
+            }
+
+            .table-550 {
+                width: 240px !important;
+            }
+            .table-500 {
+                width: 200px !important;
+            }
+
+            .about-320 {
+                width: 100% !important;
+                display: block !important;
+                padding-bottom: 20px;
+            }
+            .top-td td {
+                display: block !important;
+            }
+
+            .header-td {
+                background-position: right bottom !important;
+            }
+
+            .header-td td {
+                display: block;
+            }
+
+            .header-td .disc-procent {
+                font-size: 36px !important;
+                line-height: 22px !important;
+            }
+
+            .header-td .disc-percent {
+                font-size: 18px !important;
+            }
+
+            .header-td .disc {
+                font-size: 22px !important;
+            }
+
+            .header-td .disc-text {
+                font-size: 14px !important;
+            }
+
+            .header-td .disc-phone a {
+                font-size: 15px;
+            }
+
+            .top-td .btn a {
+                width: 154px !important;
+            }
+
+            .list-td td {
+                display: block;
+            }
+
+            .item {
+                width: 100% !important;
+            }
+
+            .item-img {
+                width: 100% !important;
+            }
+
+            .about-td td {
+                display: block !important;
+            }
+            .footer-l td {
+                display: inline-block !important;
+            }
+            .footer-l {
+                text-align: center;
+            }
+            .footer-left{
+                padding-bottom: 20px;
+            }
+            .footer-center{
+                padding-bottom: 20px;
+            }
+
+            @media (max-width:320px) {
+                .table-600 {
+                    width: 250px !important;
+                }
+
+                .table-550 {
+                    width: 205px !important;
+                }
+
+                .header-td .disc-percent {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0;padding: 0;">
+    <div style="font-size: 0;font-color:#ffffff;opacity: 0;visibility: hidden;width: 0;height: 0;display: none;">
+        Пример акционной рассылки
+    </div>
+    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
+        <tr>
+            <td>
+                <!-- main-table start -->
+                <table class="main table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#1c87cd" height="30" width="600"></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#1c87cd" class="header-td">
+                            <table width="600" class="main-td table-600" cellpadding="0" cellspacing="0" align="center">
+                                <tr>
+                                    <td style="padding-left: 20px;padding-right: 20px;" class="main-td-wrapper" align="left">
+                                        <table cellpadding="0" cellspacing="0" align="left">
+                                            <tr>
+                                                <td>
+                                                    <a href="https://radikal.host/i/cKPziX" target="_blank"
+                                                        rel="noopener noreferrer"><img
+                                                            src="https://e.radikal.host/2024/02/17/logo-white.png"
+                                                            width="253" height="36" alt="Main Logo" border="0" /></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: Arial, Helvetica, sans-serif;">
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer">
+                                                        <span class="disc-procent"
+                                                            style="color: #f290bb;font-weight: bold;font-size: 48px;line-height: 44px;">-26%</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="disc-percent"
+                                                    style="font-family: Arial, Helvetica, sans-serif;color: #ffffff;font-size: 20px;line-height: 24px;">
+                                                    <span>
+                                                        Ваша индивидуальная <br />
+                                                        скидка 15% по промокоду
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="disc" style="font-family: Arial, Helvetica, sans-serif;">
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer">
+                                                        <span style="color: #ffffff;">ЧЕКАП</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="disc-text"
+                                                    style="font-family: Arial, Helvetica, sans-serif;">
+                                                    <span style="color: #ffffff;">*назовите при звонке</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="disc-phone"
+                                                    style="font-family: Arial, Helvetica, sans-serif;">
+                                                    <div align="left">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer">
+                                                            <span style="color: #ffffff;">+ 7 (342) 292-14-97</span>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="right">
+                                        <table class="main-img" cellpadding="0" cellspacing="0" align="right">
+                                            <tr>
+                                                <td>
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer">
+                                                        <img src="https://e.radikal.host/2024/02/18/forest.png"
+                                                            width="244" height="352" alt="Spring Image" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- main-table end -->
+            </td>
+        </tr>
+        <tr>
+            <td height="30"></td>
+        </tr>
+        <tr>
+            <td>
+                <!-- top-table start -->
+                <table class="top table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                    <tr>
+                        <td>
+                            <table bgcolor="#ecf6ff" class="top-td table-550" cellpadding="0" cellspacing="0"
+                                width="550" align="center">
+                                <tr>
+                                    <td style="padding-left: 20px;" align="left">
+                                        <table class="top-td-wrapper" cellpadding="0" cellspacing="0" align="left">
+                                            <tr>
+                                                <td height="30"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <h2 class="top-title">
+                                                        МРТ-исследования <br /> со скидкой
+                                                    </h2>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <p class="top-text">
+                                                        Скидка 15% на единичные <br />
+                                                        МРТ-исследования ежедневно <br />
+                                                        после 20:00
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-style: italic;font-family: Arial, Helvetica, sans-serif !important;color: #1d87ce;">
+                                                    Внесите здоровье <br />
+                                                    в список важных дел
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="15"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="btn" align="left"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer">
+                                                        <span>Записаться</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-right: 20px;vertical-align: bottom;" align="right">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer"><img
+                                                            src="https://e.radikal.host/2024/02/18/Animation---1708236453894.gif"
+                                                            alt="Gif Animation" border="0" /></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                        rel="noopener noreferrer"><img
+                                                            src="https://e.radikal.host/2024/02/18/Animation---1708237066351.gif"
+                                                            alt="Gif Animation" border="0" /></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- top-table end -->
+
+            </td>
+        </tr>
+        <tr>
+            <td height="30"></td>
+        </tr>
+        <tr>
+            <td>
+                <table class="list table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                    <tr>
+                        <td>
+                            <table class="list-td table-550" cellpadding="0" cellspacing="0" width="550" align="center">
+                                <tr>
+                                    <td style="vertical-align: top;">
+                                        <table style="border-top-left-radius: 10px;border-top-right-radius: 10px;"
+                                            class="item" cellpadding="0" cellspacing="0" align="left" bgcolor="#4cabe0">
+                                            <tr>
+                                                <td bgcolor="#ecf6ff" height="114" width="166" class="item-img"
+                                                    align="center"
+                                                    style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                                    <div bgcolor="#ffffff" width="112" height="85"
+                                                        style="background-color: #ffffff;width:112px;height: 85px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"><img
+                                                                src="https://e.radikal.host/2024/02/18/mrt-1.png"
+                                                                alt="mrt-1.png" border="0" /></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table class="item-wrapper" width="147" cellpadding="0"
+                                                        cellspacing="0" align="center" bgcolor="#4cabe0">
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;font-weight: bold;">
+                                                                МРТ органов <br />
+                                                                брюшной полости
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                                Мрт брюшной полости за один раз исследуют практически
+                                                                все важнейшие
+                                                                внутренние органы
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="btn"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <div align="left" width="100%">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            style="display: inline-block;padding-top: 12px;padding-bottom:12px;background: #F290BB;font-size: 16px;color: #ffffff;font-weight: bold;width: 100%;text-align: center;">
+                                                            Записаться
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" bgcolor="#ffffff"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        <table style="border-top-left-radius: 10px;border-top-right-radius: 10px;"
+                                            class="item" cellpadding="0" cellspacing="0" align="left" bgcolor="#4cabe0">
+                                            <tr>
+                                                <td bgcolor="#ecf6ff" height="114" width="166" class="item-img"
+                                                    align="center"
+                                                    style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                                    <div bgcolor="#ffffff" width="112" height="85"
+                                                        style="background-color: #ffffff;width:112px;height: 85px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"><img
+                                                                src="https://e.radikal.host/2024/02/18/mrt-2.png"
+                                                                alt="mrt-2.png" border="0" /></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table class="item-wrapper" width="147" cellpadding="0"
+                                                        cellspacing="0" align="center" bgcolor="#4cabe0">
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;font-weight: bold;">
+                                                                МРТ пояснично-крестцового <br>
+                                                                и крестцово-копчикового
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                                Мрт брюшной полости за один раз исследуют практически
+                                                                все важнейшие внутренние органы
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="btn"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <div align="left" width="100%">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            style="display: inline-block;padding-top: 12px;padding-bottom:12px;background: #F290BB;font-size: 16px;color: #ffffff;font-weight: bold;width: 100%;text-align: center;">
+                                                            Записаться
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" bgcolor="#ffffff"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        <table style="border-top-left-radius: 10px;border-top-right-radius: 10px;"
+                                            class="item" cellpadding="0" cellspacing="0" align="left" bgcolor="#4cabe0">
+                                            <tr>
+                                                <td bgcolor="#ecf6ff" height="114" width="166" class="item-img"
+                                                    align="center"
+                                                    style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                                    <div bgcolor="#ffffff" width="112" height="85"
+                                                        style="background-color: #ffffff;width:112px;height: 85px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"><img
+                                                                src="https://e.radikal.host/2024/02/18/mrt-3.png"
+                                                                alt="mrt-1.png" border="0" /></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table class="item-wrapper" width="147" cellpadding="0"
+                                                        cellspacing="0" align="center" bgcolor="#4cabe0">
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;font-weight: bold;">
+                                                                МРТ голеностопного
+                                                                сустава
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                                С помощью МРТ врач без хирургического вмешательства
+                                                                может оценить состояние мышц и связок сустава,
+                                                                определить наличие воспалительных изменений мягкой,
+                                                                костной и хрящевой ткани.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" style="height:20px"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="btn"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <div align="left" width="100%">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            style="display: inline-block;padding-top: 12px;padding-bottom:12px;background: #F290BB;font-size: 16px;color: #ffffff;font-weight: bold;width: 100%;text-align: center;">
+                                                            Записаться
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" bgcolor="#ffffff"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="30" style="height:30px"></td>
+        </tr>
+        <tr>
+            <td>
+                <!-- gif-table start -->
+                <table class="about table-600" cellpadding="0" cellspacing="0" width="100%" align="center">
+                    <tr>
+                        <td class="about-bg">
+                            <table class="about-td table-550" cellpadding="0" cellspacing="0" width="550"
+                                align="center">
+                                <tr>
+                                    <td align="left">
+                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                            rel="noopener noreferrer"><img width="203" height="294"
+                                                src="https://e.radikal.host/2024/02/18/46981626362206795.png"
+                                                alt="46981626362206795.png" border="0"></a>
+                                    </td>
+                                    <td align="right" style="vertical-align: top;">
+                                        <table class="about-320" cellpadding="0" cellspacing="0" width="320" align="right">
+                                            <tr>
+                                                <td style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <h3
+                                                        style="color:#333333;font-size: 28px;margin: 0;line-height: 32px;">
+                                                        Узнайте о нас больше
+                                                    </h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="height:20px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <p style="margin: 0;line-height: 20px;font-size: 16px;">Центры «МРТ
+                                                        Эксперт» в Москве более 10 лет. Мы эксперты в лучевой
+                                                        диагностике и ежедневно проводим МРТ разного уровня сложности. О
+                                                        здоровье наших пациентов также заботится команда
+                                                        врачей-неврологов, приёмы которых доступны в центрах.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="height:20px"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="btn"
+                                                    style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                    <div align="left" width="166">
+                                                        <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            style="display: inline-block;padding: 20px;background: #F290BB;font-size: 16px;color: #ffffff;font-weight: bold;width: 200px;text-align: center;">
+                                                            Записаться
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- gif-table end -->
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="footer table-600" bgcolor="#F6F6F7" cellpadding="0" cellspacing="0" width="600"
+                    align="center">
+                    <tr>
+                        <td>
+                            <table class="footer-td table-550" bgcolor="#F6F6F7" cellpadding="0" cellspacing="0"
+                                width="550" align="center">
+                                <tr>
+                                    <td height="30" style="height:30px"></td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #c7cfd5;"></td>
+                                </tr>
+                                <tr>
+                                    <td height="40" style="height:40px"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="footer-l table-500" bgcolor="#F6F6F7" cellpadding="0" cellspacing="0"
+                                            width="500" align="center">
+                                            <tr>
+                                                <td class="footer-left" align="left">
+                                                    <table class="footer-phone" cellpadding="0" cellspacing="0"
+                                                        align="left">
+                                                        <tr>
+                                                            <td>
+                                                                <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                                rel="noopener noreferrer"><img
+                                                                        src="https://e.radikal.host/2024/02/18/phone.png"
+                                                                        alt="phone" border="0" /></a>
+                                                            </td>
+                                                            <td style="padding-left: 20px;">
+                                                                <table cellpadding="0" cellspacing="0" align="center">
+                                                                    <tr>
+                                                                        <td
+                                                                            style="font-family: Arial, Helvetica, sans-serif !important;">
+                                                                            <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                                            rel="noopener noreferrer"
+                                                                                style="text-decoration: underline;color: #333333;">
+                                                                                +7 (4722) 42-94-57
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            style="font-family: Arial, Helvetica, sans-serif !important;color: #333333;">
+                                                                            (круглосуточно)
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td class="footer-center" align="center">
+                                                    <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                    rel="noopener noreferrer" style="color: #4192ff;">www.mrtexpert.ru</a>
+                                                </td>
+                                                <td align="right">
+                                                    <table class="footer-socials" cellpadding="0" cellspacing="0"
+                                                        align="right">
+                                                        <tr>
+                                                            <td style="padding-right: 10px;padding-left: 10px;">
+                                                                <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                                rel="noopener noreferrer"><img
+                                                                        src="https://e.radikal.host/2024/02/18/vk.png"
+                                                                        alt="vk.png" border="0" /></a>
+                                                            </td>
+                                                            <td style="padding-left: 10px;padding-right: 10px;">
+                                                                <a href="https://msk.mrtexpert.ru/" target="_blank"
+                                                                rel="noopener noreferrer"><img
+                                                                        src="https://e.radikal.host/2024/02/18/tg.png"
+                                                                        alt="tg.png" border="0" /></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="30" style="height:30px"></td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #c7cfd5;"></td>
+                                </tr>
+                                <tr>
+                                    <td height="30" style="height:30px"></td>
+                                </tr>
+                                <tr>
+                                    <td align="center"
+                                        style="font-family: Arial, Helvetica, sans-serif !important;text-transform: uppercase;font-size: 13px;color: #aeaeae;">
+                                        Имеются противопоказания. Необходима консультация специалиста.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="40" style="height:40px"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
